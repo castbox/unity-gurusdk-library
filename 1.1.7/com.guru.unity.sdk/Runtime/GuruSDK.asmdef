@@ -1,0 +1,19 @@
+{
+    "name": "GuruSDK",
+    "rootNamespace": "Guru",
+    "references": [
+        "Guru.Runtime",
+        "UnityEngine.Purchasing.Security",
+        "UnityEngine.Purchasing.SecurityStub",
+        "UnityEngine.Purchasing.SecurityCore"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,13 @@
+{
+  "name": "com.guru.unity.dotween",
+  "displayName": "Guru Dotween",
+  "version": "1.2.765",
+  "description": "Guru hosted dotween plugin for unity project",
+  "unity": "2021.3",
+  "author":{
+    "name": "Guru Game"
+  },
+  "category": ["Game","Tool","Development"],
+  "dependencies": {
+  }
+}

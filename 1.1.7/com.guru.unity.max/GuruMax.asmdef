@@ -1,0 +1,17 @@
+{
+    "name": "GuruMax",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "GURU_MAX"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
