@@ -240,6 +240,9 @@ namespace Guru
             LogI($"[SDK] ---- Check Noti Permission: {isGranted}");
             if (isGranted)
             {
+                if (_initConfig.AutoNotificationPermission == false)
+                    FirebaseUtil.StartFetchFcmToken();
+                
                 var status = NotificationService.GetStatus();
                 
 #if UNITY_IOS
