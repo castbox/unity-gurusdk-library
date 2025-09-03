@@ -1,0 +1,11 @@
+{
+  "name": "com.google.firebase.dynamic-links",
+  "version": "12.10.0",
+  "displayName": "[Guru] FirebaseDynamicLinks",
+  "author": {
+    "name": "Google LLC",
+    "url": "https://firebase.google.com/docs/dynamic-links"
+  },
+  "description": "Firebase Unity Pacakge : [com.google.firebase.dynamic-links]",
+  "unity": "2020.1"
+}

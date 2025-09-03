@@ -1,0 +1,11 @@
+{
+  "name": "com.google.firebase.analytics",
+  "version": "12.10.0",
+  "displayName": "[Guru] FirebaseAnalytics",
+  "author": {
+    "name": "Google LLC",
+    "url": "https://firebase.google.com/docs/analytics"
+  },
+  "description": "Firebase Unity Pacakge : [com.google.firebase.analytics]",
+  "unity": "2020.1"
+}

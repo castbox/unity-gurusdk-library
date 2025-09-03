@@ -1,0 +1,9 @@
+{
+    "latest": "1.5.0",
+    "versions": {
+        "1.5.0": {
+            "ts": 1754101285,
+            "desc": " \u6dfb\u52a0 Appsflyer, ThinkingData \u6253\u70b9\u5e73\u53f0, Firebase \u5347\u7ea7 12.10.0. \u91cd\u6784\u6253\u70b9\u6846\u67b6\u548c\u903b\u8f91\u3002"
+        }
+    }
+}
