@@ -1,0 +1,11 @@
+{
+  "name": "com.google.firebase.crashlytics",
+  "version": "12.10.0",
+  "displayName": "[Guru] FirebaseCrashlytics",
+  "author": {
+    "name": "Google LLC",
+    "url": "https://firebase.google.com/docs/crashlytics"
+  },
+  "description": "Firebase Unity Pacakge : [com.google.firebase.crashlytics]",
+  "unity": "2020.1"
+}
