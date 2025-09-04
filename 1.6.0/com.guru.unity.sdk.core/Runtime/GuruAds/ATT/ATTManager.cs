@@ -228,6 +228,12 @@ namespace Guru
             SafeExecute(() => {
                 OnTrackingAuthorization?.Invoke((TrackingAuthorizationStatus)GetTrackingAuthorizationStatus());
             });
+
+            if (status == ATTrackingStatusBinding.AuthorizationTrackingStatus.AUTHORIZED)
+            {
+                _onCheckComplete?.Invoke();
+                return;
+            }
             
             // 判断用户数是否点击了 Att Dialog
             if (_attBeginStatus == ATTrackingStatusBinding.AuthorizationTrackingStatus.NOT_DETERMINED

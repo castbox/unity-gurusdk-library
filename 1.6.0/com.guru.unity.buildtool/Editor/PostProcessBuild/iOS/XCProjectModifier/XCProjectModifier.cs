@@ -170,7 +170,7 @@ namespace Guru.Editor
 
 			// Copy the entitlement file to the xcode project
 			var entitlementFileName = Path.GetFileName(entitlementPath);
-			var relativeDestination = mainTargetName + "/" + entitlementFileName;
+			var relativeDestination = entitlementFileName;
 
 			// Add the pbx configs to include the entitlements files on the project
 			pbxProject.AddFile(relativeDestination, entitlementFileName);
@@ -184,14 +184,17 @@ namespace Guru.Editor
 			// Check if there is already an eltitlements file configured in the Xcode project
 			var relativeEntitlementPath = pbxProject.GetBuildPropertyForConfig(mainTargetGuid, "CODE_SIGN_ENTITLEMENTS");
 			if (relativeEntitlementPath != null) {
-				var entitlementPath = buildPath + DIR_CHAR + relativeEntitlementPath;
+				// var entitlementPath = buildPath + DIR_CHAR + relativeEntitlementPath;
+				var entitlementPath = $"{buildPath}/{relativeEntitlementPath}";
 				if (File.Exists(entitlementPath)) {
 					return entitlementPath;
 				}
 			}
 			// No existing file, use a new name
-			return buildPath + DIR_CHAR + mainTargetName + DIR_CHAR + mainTargetName + ".entitlements";
+			// return buildPath + DIR_CHAR + mainTargetName + DIR_CHAR + mainTargetName + ".entitlements";
+			return $"{buildPath}/{mainTargetName}.entitlements";
 		}
+		
 		#endregion
 		
 
