@@ -98,7 +98,7 @@ namespace Guru
         /// </summary>
         protected override void ReportIDFA(string idfa)
         {
-            GuruAnalytics.Instance.SetIDFA(idfa);
+            GuruAnalytics.Instance.SetAdId(idfa);
             Debug.Log($"{logTag} --- SetIDFA: {idfa}");
         }
     }

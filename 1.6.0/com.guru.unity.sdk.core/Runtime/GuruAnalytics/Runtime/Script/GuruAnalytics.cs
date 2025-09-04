@@ -300,8 +300,7 @@ namespace Guru
                 return;
             }
             if (string.IsNullOrEmpty(idfa)) return;
-            // CacheUserProperty(Analytics.PropertyIDFA, idfa);
-            Agent.SetUserProperty(Analytics.PropertyIDFA, idfa);
+            CacheUserProperty(Analytics.PropertyIDFA, idfa);
         }
 
 
