@@ -71,7 +71,7 @@ namespace Guru.Editor
         private static string GetShellPath()
         {
             var path = "";
-            var guids = AssetDatabase.FindAssets($"{nameof(PgyerAPI)} t:script");
+            var guids = AssetDatabase.FindAssets($"{nameof(GuruPublishHelper)} t:script");
             if (guids.Length > 0)
             {
                 path = Path.Combine(Directory.GetParent(AssetDatabase.GUIDToAssetPath(guids[0])).FullName, ShellFile);
