@@ -1,0 +1,11 @@
+{
+  "name": "com.google.firebase.remote-config",
+  "version": "12.10.0",
+  "displayName": "[Guru] FirebaseRemoteConfig",
+  "author": {
+    "name": "Google LLC",
+    "url": "https://firebase.google.com/docs/remote-config"
+  },
+  "description": "Firebase Unity Pacakge : [com.google.firebase.remote-config]",
+  "unity": "2020.1"
+}

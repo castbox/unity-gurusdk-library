@@ -1,0 +1,11 @@
+{
+  "name": "com.google.firebase.auth",
+  "version": "12.10.0",
+  "displayName": "[Guru] FirebaseAuth",
+  "author": {
+    "name": "Google LLC",
+    "url": "https://firebase.google.com/docs/auth"
+  },
+  "description": "Firebase Unity Pacakge : [com.google.firebase.auth]",
+  "unity": "2020.1"
+}
