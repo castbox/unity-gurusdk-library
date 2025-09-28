@@ -201,7 +201,7 @@ namespace Guru.IAP
                 {
                     var item = settings[i];
                     var ids = new IDs();
-#if UNITY_ADNROID
+#if UNITY_ANDROID
                     if (!string.IsNullOrEmpty(item.GooglePlayProductId))
                     {
                         ids.Add(item.GooglePlayProductId, GooglePlay.Name);
