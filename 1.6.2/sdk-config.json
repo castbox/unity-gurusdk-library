@@ -1,0 +1,147 @@
+{
+  "version": "1.6.2",
+  "ts": "1760361072",
+  "desc": "1.新增Bigo Mediation\\n2.升级广告MaxSDK版本13.1.0\\n3.升级TradPlus版本Android 13.2.0.1 -> 14.1.20.1; iOS 10.8.0 -> 13.8.20",
+  "packages": {
+    "com.google.android.appbundle": {
+      "group": "google",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.google.external-dependency-manager": {
+      "group": "google",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.google.firebase.analytics": {
+      "group": "firebase",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.google.firebase.app-core": {
+      "group": "firebase",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.google.firebase.auth": {
+      "group": "firebase",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.google.firebase.crashlytics": {
+      "group": "firebase",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.google.firebase.dynamic-links": {
+      "group": "firebase",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.google.firebase.firestore": {
+      "group": "firebase",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.google.firebase.messaging": {
+      "group": "firebase",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.google.firebase.remote-config": {
+      "group": "firebase",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.google.play.common": {
+      "group": "google",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.google.play.core": {
+      "group": "google",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.google.play.review": {
+      "group": "google",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.guru.unity.adjust": {
+      "group": "guru-sdk",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.guru.unity.appsflyer": {
+      "group": "guru-sdk",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.guru.unity.ads": {
+      "group": "guru-sdk",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.guru.unity.buildtool": {
+      "group": "guru-sdk",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.guru.unity.debug.console": {
+      "group": "guru-sdk",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.guru.unity.facebook": {
+      "group": "guru-sdk",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.guru.unity.i2": {
+      "group": "guru-sdk",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.guru.unity.l10n": {
+      "group": "guru-sdk",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.guru.unity.max": {
+      "group": "guru-sdk",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.guru.unity.sdk": {
+      "group": "guru-sdk",
+      "embedded": true,
+      "dependencies": [
+        "guru-sdk",
+        "firebase",
+        "google",
+        "third-party"
+      ]
+    },
+    "com.guru.unity.sdk.core": {
+      "group": "guru-sdk",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.guru.unity.utils": {
+      "group": "guru-sdk",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.guru.unity.vibration": {
+      "group": "guru-sdk",
+      "embedded": true,
+      "dependencies": []
+    },
+    "com.guru.unity.unitask": {
+      "group": "guru-sdk",
+      "embedded": true,
+      "dependencies": []
+    }
+  }
+}

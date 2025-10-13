@@ -1,0 +1,11 @@
+{
+  "name": "com.google.firebase.messaging",
+  "version": "12.10.0",
+  "displayName": "[Guru] FirebaseMessaging",
+  "author": {
+    "name": "Google LLC",
+    "url": "https://firebase.google.com/docs/in-app-messaging"
+  },
+  "description": "Firebase Unity Pacakge : [com.google.firebase.messaging]",
+  "unity": "2020.1"
+}

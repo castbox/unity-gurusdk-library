@@ -1,0 +1,11 @@
+{
+  "name": "com.google.firebase.firestore",
+  "version": "12.10.0",
+  "displayName": "[Guru] FirebaseFirestore",
+  "author": {
+    "name": "Google LLC",
+    "url": "https://firebase.google.com/docs/firestore"
+  },
+  "description": "Firebase Unity Pacakge : [com.google.firebase.firestore]",
+  "unity": "2020.1"
+}
