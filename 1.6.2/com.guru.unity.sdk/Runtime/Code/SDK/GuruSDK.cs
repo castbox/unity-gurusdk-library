@@ -255,7 +255,7 @@ namespace Guru
         /// </summary>
         private void UpdateSDKRemoteConfigs()
         {
-#if GURU_ADJUST && DISABLE
+#if GURU_ADJUST
             UpdateAdjustDelayStrategy();
 #endif
         }
@@ -986,7 +986,7 @@ namespace Guru
         private static void AddGuruCommand()
         {
             // ---------------- Add Adjust Command ---------------- 
-#if GURU_ADJUST && DISABLE
+#if GURU_ADJUST
             AddDebugConsoleCommand("adjust", "Show Adjust Debug Info", () =>
             {
                 Guru.Debug.GuruDebugConsole.Instance.SetSearchKeyword(AdjustService.LOG_TAG);

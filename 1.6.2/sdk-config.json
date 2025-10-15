@@ -68,6 +68,11 @@
       "embedded": true,
       "dependencies": []
     },
+    "com.guru.unity.adjust": {
+      "group": "guru-sdk",
+      "embedded": true,
+      "dependencies": []
+    },
     "com.guru.unity.appsflyer": {
       "group": "guru-sdk",
       "embedded": true,
