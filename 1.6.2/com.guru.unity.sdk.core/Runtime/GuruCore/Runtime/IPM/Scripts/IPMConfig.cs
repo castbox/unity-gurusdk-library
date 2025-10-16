@@ -406,7 +406,7 @@ namespace Guru
 #endif
 
 #if UNITY_IOS
-				if (string.IsNullOrEmpty(_idfa))
+				if (string.IsNullOrEmpty(_idfa) || _idfa.Equals("00000000-0000-0000-0000-000000000000"))
 					_idfa = UnityEngine.iOS.Device.advertisingIdentifier;
 #endif
 				
