@@ -11,7 +11,7 @@ namespace Guru
             // ------------ 在此处添加所有自动添加的三方打点器 ---------------------
             // 
             
-#if GURU_ADJUST
+#if GURU_ADJUST && DISABLE
             AddAdjustDriver();
 #endif 
             
@@ -26,7 +26,7 @@ namespace Guru
 
         // ------------------- Adjust --------------------------
 
-#if GURU_ADJUST
+#if GURU_ADJUST && DISABLE
         private AdjustEventDriver _adjustEventDriver;
         
         /// <summary>

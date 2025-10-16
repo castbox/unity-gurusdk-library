@@ -57,7 +57,11 @@ namespace Guru
             Analytics.SetIDFA(IPMConfig.IDFA);
             Analytics.SetIDFV(IPMConfig.IDFV);
             Analytics.SetAndroidId(IPMConfig.ANDROID_ID);
-            Analytics.SetGoogleAdId(IPMConfig.GOOGLE_ADID);
+            
+            if (Application.platform == RuntimePlatform.Android)
+                Analytics.SetGoogleAdId(IPMConfig.GOOGLE_ADID);
+            else if (Application.platform == RuntimePlatform.IPhonePlayer)
+                Analytics.SetGoogleAdId(IPMConfig.IDFA);
         }
 
         #endregion

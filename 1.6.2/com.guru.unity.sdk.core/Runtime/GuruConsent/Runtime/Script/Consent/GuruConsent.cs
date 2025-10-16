@@ -146,6 +146,8 @@ namespace Guru
                 _onGdprResultHandler.Invoke(status);
                 _onGdprResultHandler = null;
             }
+            
+            Analytics.SetIDFA(IPMConfig.IDFA);
         }
 
         /// <summary>

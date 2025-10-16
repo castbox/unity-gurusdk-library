@@ -10,7 +10,7 @@ namespace Guru.Editor
     using System.IO;
     using Facebook.Unity.Settings;
     using UnityEditor.Compilation;
-#if GURU_ADJUST
+#if GURU_ADJUST && DISABLE
     using AdjustSdk;
 #endif
 
@@ -974,7 +974,7 @@ namespace Guru.Editor
         //------------------------- AdjustSettings --------------------------------
         private void ImportAdjustSettings()
         {
-#if GURU_ADJUST
+#if GURU_ADJUST && DISABLE
             AdjustSettings settings = null;
             string p = FindAssetPath(nameof(AdjustSettings), "ScriptableObject");
             if (!string.IsNullOrEmpty(p))

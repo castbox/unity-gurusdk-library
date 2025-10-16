@@ -464,7 +464,7 @@ namespace Guru
 #if UNITY_EDITOR
 				return "FakeGoogleAdId";
 #elif UNITY_IOS
-				return "no_support_for_ios";
+				return "";
 #elif UNITY_ANDROID
 				string advertisingID = "";
 				try
